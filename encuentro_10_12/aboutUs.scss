@@ -1,0 +1,11 @@
+@import "style/base";
+
+@import "style/header";
+
+/*MAIN*/
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+@import "style/utils"

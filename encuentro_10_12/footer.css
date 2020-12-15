@@ -1,0 +1,13 @@
+/*footer*/
+footer {
+    text-align: right;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+footer:hover {
+    background-color: violet;
+    text-decoration: underline;
+}

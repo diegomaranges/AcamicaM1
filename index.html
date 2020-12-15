@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi pagina</title>
+        <style>
+            body { background-color: gray; }
+            h1 { color: red; }
+            h6 { padding-left: 10px; }
+            p { background-color: black; color: white; }
+        </style>
+    </head> 
+    <body>
+        <h1 id="nombre">Diego Maranges</h1>
+        <h6>04/05/1995</h6>
+        <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quo veritatis eveniet iste mollitia quos repellendus magni at accusamus reprehenderit vitae asperiores rem incidunt odio cum numquam, sit optio minus.</p>
+        <script>
+            nombre = document.getElementById("nombre");
+            nombre.addEventListener("click", function() { alert("bienvenido!!") } );
+    
+            descripcion = document.getElementById("parrafo");
+            descripcion.addEventListener("mouseenter", function(){
+                console.log(descripcion);
+                descripcion.style.color = "black";
+                descripcion.style.backgroundColor = "white";
+            });
+
+            descripcion.addEventListener("mouseout", function(){
+                descripcion.style.color = "white";
+                descripcion.style.backgroundColor = "black";
+            });
+    
+        </script>
+    </body>
+</html>

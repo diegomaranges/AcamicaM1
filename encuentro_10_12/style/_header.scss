@@ -1,0 +1,30 @@
+$action_color: gray;
+
+/*HEADER*/
+.nav {
+    width: 80%;
+    padding: 5px 10%;
+    background-color: black;
+    .navbar {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+        color: white;
+        li {
+            padding: 10px;
+            width: 33%;
+            &:hover {
+                background-color: $action_color;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    width: 100%;
+}

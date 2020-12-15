@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <!-- este es mi formulario
+        
+        
+        -->
+        <form action="javascript:alert('Hola');" method="POST">
+            <div>
+              <label for="name">Nombre:</label>
+              <input type="week" placeholder="John Doe" id="name" name="name" tabindex="2">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" placeholder="johnd@mail.com" id="email" name="email" required tabindex="1">
+            </div>
+            <div>
+              <label for="pais">Seleccione su nacionalidad:</label>
+              <select name="Pais" id="pais">
+                  <option value="Argentina">Argentina</option>
+                  <option value="Brasil">Brasil</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Venezuela">Venezuela</option>
+              </select>
+            </div>
+            <div>
+              <label for="url">Página Web:</label>
+              <input type="url" id="url" placeholder="http://www.aaa.com" name="url">
+            </div>
+            <div>
+              <label for="cv">Cargue su CV:</label>
+              <input type="file" name="cv" id="cv">
+            </div>
+            <div>
+              <label for="pass">Password:</label>
+              <input type="password" name="pass" id="pass">
+            </div>
+            <div>
+              <p>¿Tiene experiencia previa en programación?</p>
+              <input type="checkbox" name="exp" value="yes" id="expYes">
+              <label for="expYes">Si</label>
+              <input type="checkbox" name="exp" value="no" id="expNo">
+              <label for="expNo">No</label>
+            </div>
+              <input type="hidden" name="oculto">
+            <div>
+              <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+            </div>
+            <div>
+              <input type="checkbox" name="terms" id="terms" required>
+              <label for="terms">Acepto términos y condiciones</label>  
+          </div>
+          <div>   
+            <input type="submit">
+          </div>
+        </form>
+    </main>
+</body>
+</html>

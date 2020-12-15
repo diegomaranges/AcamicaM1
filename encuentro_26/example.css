@@ -1,0 +1,41 @@
+/*
+Border bottom al nav para dividir la sección
+Cambiar todas las fuentes a Calibri
+Eliminar bullets de los li
+La fuente de los títulos de color rojo, alineados  al centro y 24px
+La fuente del párrafo en gris y 16px
+Border a todo el formulario
+ */
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+ header nav {
+     border-bottom: 1px double blue;
+ }
+
+p {
+    color: gray;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.form {
+    border: 2px dotted green;
+    width: 500px;
+}
+
+form {
+    width: 700px;
+    border: 2px solid black;
+}

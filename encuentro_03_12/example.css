@@ -1,0 +1,80 @@
+h1, h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+header nav {
+    border-bottom: 1px double blue;
+    position: relative;
+}
+
+nav img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 0px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+p {
+    color: gray;
+    font-size: 16px;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    display: inline-block;
+    width: 50%;
+    box-sizing: content-box;
+}
+
+.formContainer {
+    border: 2px dotted green;
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+form {
+    border: 2px solid black;
+}
