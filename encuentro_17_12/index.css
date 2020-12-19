@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 5vw;
+}
+
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+  /*HEADER*/
+.nav {
+    width: 80%;
+    padding: 5px 10%;
+    background-color: black;
+    overflow: auto;
+}
+  
+.nav .navbar {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    color: white;
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.nav .navbar li {
+    display: inline;
+    padding: 1vh 2vw;
+    font-size: 0.6rem;
+}
+  
+.nav .navbar li:hover {
+    background-color: gray;
+    text-decoration: underline;
+}
+  
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}
+  
+/* -> busca el archivo _header.scss -> copy paste */
+/*MAIN*/
+/*SECTION 1*/
+
+.section1 div {
+    margin: 10px;
+    text-align: center;
+}
+
+.section1 div img {
+    text-align: end;
+    display: inline-block;
+}
+
+/*SECTION 2*/
+.section2 article {
+    margin: 1vh 2vw;
+}
+
+.section2 article .artImg {
+    width: 40vw;
+    height: 20vw;
+}
+
+.section2 article h2 {
+    font-size: 1.2rem;
+}
+
+.section2 article div {
+    font-size: 0.6rem;
+}
+
+.section2 article div p {
+    display: inline-table;
+}
+
+/*UTILS*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 40vw;
+    height: 40vw;
+    border: 2px solid red;
+}
+
+/*mobile*/
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    img {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .section1 div {
+        margin: 0;
+    }
+}
