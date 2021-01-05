@@ -36,7 +36,7 @@ En esencia podríamos decir que article es mas especifico que section y section 
 La especificidad es un peso (importancia o valor) que se le asigna a una declaración CSS dada, determinada por el número correspondiente de cada tipo de selector. Cuando varias declaraciones tienen igual especificidad, se aplicará al elemento la última declaración encontrada en el CSS. La especificidad solo se aplica cuando el mismo elemento es objetivo de múltiples declaraciones. Según las reglas de CSS, en caso de que un elemento sea objeto de una declaración directa, esta siempre tendrá preferencia sobre las reglas heredadas de su ancestro.
 Dentro de los selectores tenemos por tipo, pseudo elements, clases, atributos, pseudo clases y ids. además de que se pueden considerar en esta parte también los atributos stryle en el código html y el important! (se recomienda no utilizar).
 Recordar usar la tabla para ver cual selector se aplica y recordar que cuando se tiene la misma importancia se aplica el ultimo cambio:
-![calcular prioridad](C:\Users\diego\Documents\GitHub\AcamicaM1\unnamed.jpg)
+![calcular prioridad](unnamed.jpg)
 
 ### FUENTES(TIPOGRAFIA)
 
