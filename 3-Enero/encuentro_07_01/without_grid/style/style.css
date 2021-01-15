@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(207, 207, 199);
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+header h2 {
+    font-size: 3vw;
+    background-color: rgb(255, 0, 0);
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.main-aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.main-aside main {
+    width: 70%;
+    background-color: rgb(206, 206, 235);
+    padding: 10px;
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.main-aside aside {
+    width: 20%;
+    background-color: rgb(0, 128, 0);
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.widgets div {
+    background-color: rgb(0, 0, 255);
+    width: 40%;
+    text-align: center;
+    height: 6vh;
+    color: rgb(245, 222, 179);
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    border: rgb(0, 0, 0) 2px solid;
+}
