@@ -17,8 +17,11 @@ La lista de todos los elementos que se pueden incluir en el encabezado de un arc
 
 ### DIV vs SECTION vs ARTICLE
 Los tres cumplen la misma función ya que todos están pensados para dividir en moduloso mas pequeños y manejables para nosotros.
+
 Todos se utilizan para facilitar la implementación de nuestro código css en el, por lo cual no hay diferencia entre ellos, porque el contenido no lo definen ellos propiamente dicho.
+
 En general div es utilizado cuando el contenido no esta relacionado entre si, es decir si tenemos que definir en alguna parte de nuestra pagina dos bloques diferentes con sus estilos y la información, de cada uno es variada y no relacionada. En el caso que la información sea sobre el mismo tema y pueda considerarse completamente autónoma se utiliza article. Y en cualquier otro caso utilizamos section.
+
 En esencia podríamos decir que article es mas especifico que section y section es mas especifico que div.
 
 ### LINKS RECOMENDADOS
@@ -33,10 +36,15 @@ En esencia podríamos decir que article es mas especifico que section y section 
 
 ### PRIORIDAD(especificidad) Y SELECTORES
 
-La especificidad es un peso (importancia o valor) que se le asigna a una declaración CSS dada, determinada por el número correspondiente de cada tipo de selector. Cuando varias declaraciones tienen igual especificidad, se aplicará al elemento la última declaración encontrada en el CSS. La especificidad solo se aplica cuando el mismo elemento es objetivo de múltiples declaraciones. Según las reglas de CSS, en caso de que un elemento sea objeto de una declaración directa, esta siempre tendrá preferencia sobre las reglas heredadas de su ancestro.
+La especificidad es un peso (importancia o valor) que se le asigna a una declaración CSS dada, determinada por el número correspondiente de cada tipo de selector. Cuando varias declaraciones tienen igual especificidad, se aplicará al elemento la última declaración encontrada en el CSS.
+
+La especificidad solo se aplica cuando el mismo elemento es objetivo de múltiples declaraciones. Según las reglas de CSS, en caso de que un elemento sea objeto de una declaración directa, esta siempre tendrá preferencia sobre las reglas heredadas de su ancestro.
+
 Dentro de los selectores tenemos por tipo, pseudo elements, clases, atributos, pseudo clases y ids. además de que se pueden considerar en esta parte también los atributos stryle en el código html y el important! (se recomienda no utilizar).
+
 Recordar usar la tabla para ver cual selector se aplica y recordar que cuando se tiene la misma importancia se aplica el ultimo cambio:
-![calcular prioridad](unnamed.jpg)
+
+![calcular prioridad](/imagenes/priority.jpg)
 
 ### FUENTES(TIPOGRAFIA)
 
@@ -44,7 +52,9 @@ Las tipografías (*también denominadas fuentes*) son una parte muy importante d
 
 ### POSITION, DISPLAY Y FLOAT
 
+La principal diferencia entre estos es que *position* determina la posición y la relación que va a tener con los demás elementos. Mientras que *display* va a representar  como se va a mostrar este elemento (si vamos a tener un bloque, una grilla, etc). Y finalmente *float* posee 3 valores posibles únicamente, **none**, **rigth** y **left**, es decir que nos permite manejar con mucha facilidad una sección de la pagina con a lo sumo dos elementos colocando uno a la derecha y uno a la izquierda y el valor por defecto es none.
 
+Yo generalmente utilizo y recomiendo usar position y display. Dentro de position podemos superponer elementos y mover elementos para ponerlos mas cerca o lejos de los contiguos al mismo, y con display podemos darle una forma a estos elementos. Pero todo va a depender de como le sea mas cómodo al programador en ese momento y obviamente como sean los requerimientos del mismo.
 
 ### FLEX + GRID
 
@@ -52,10 +62,19 @@ La diferencia básica entre Grid y Flexbox Layout es que Flexbox se creó para d
 
 ### ANIMATION
 
+
+
 ### GENERATORS
 
-1. [flexbox](https://loading.io/flexbox/)
-2. [grid](https://cssgrid-generator.netlify.app/)
+1. [Font](https://html-css-js.com/css/generator/font/)
+2. [Flexbox](https://loading.io/flexbox/)
+3. [Grid](https://cssgrid-generator.netlify.app/)
+4. [Polígonos](https://bennettfeely.com/clippy/)
+5. [Buttons](https://www.bestcssbuttongenerator.com/)
+6. [Box shadow](https://html-css-js.com/css/generator/box-shadow/)
+7. [Animations](https://animista.net/)
+8. [Css3](http://css3generator.com/)
+9. [generador general](https://cssgenerator.org/)
 
 ### RESPONSIVE
 
@@ -63,14 +82,37 @@ La diferencia básica entre Grid y Flexbox Layout es que Flexbox se creó para d
 ### TIPS
 
 ### LINKS RECOMENDADOS
-1. [Selectores muy buenos y bien explicados](https://code.tutsplus.com/es/tutorials/the-30-css-selectors-you-must-memorize--net-16048) 
-2. [Teoría de selectores (ingles)](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
-3. [Especificidad (ingles)](https://developer.mozilla.org/es/docs/Web/CSS/Especificidad)
-4. [Tipografías]( https://lenguajecss.com/css/fuentes-y-tipografias/tipografias/)
-5. [CSS Position, Display y Float (ingles)](https://medium.com/@mautayro/understanding-css-position-display-float-87f9727334b2)
-6. [Google fonts (ingles)]( https://fonts.google.com/)
-7. [Grid y flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout/Relacion_de_Grid_Layout)
-8. [Hermoso y muy completo articulo de flexbox y grid (Grid for layout, Flexbox for components)(ingles)](https://ishadeed.com/article/grid-layout-flexbox-components/)
-9. [Definición de layouts y componentes](https://stackoverflow.com/questions/44309390/whats-exactly-the-purpose-of-components-layouts-and-pages-folders-in-a-meteor)
+
+1. [Información general de todo en W3School - recomendado](https://www.w3schools.com/css/default.asp)
+2. [Selectores muy buenos y bien explicados](https://code.tutsplus.com/es/tutorials/the-30-css-selectors-you-must-memorize--net-16048) 
+3. [Teoría de selectores (ingles)](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
+4. [Especificidad (ingles)](https://developer.mozilla.org/es/docs/Web/CSS/Especificidad)
+5. [Tipografías]( https://lenguajecss.com/css/fuentes-y-tipografias/tipografias/)
+6. [CSS Position, Display y Float (ingles)](https://medium.com/@mautayro/understanding-css-position-display-float-87f9727334b2)
+7. [Google fonts (ingles)]( https://fonts.google.com/)
+8. [Fuentes Responsive](https://marabelia.com/css-font-size-responsive/)
+9. [Grid y flexbox](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout/Relacion_de_Grid_Layout)
+10. [Hermoso y muy completo articulo de flexbox y grid (Grid for layout, Flexbox for components)(ingles)](https://ishadeed.com/article/grid-layout-flexbox-components/)
+11. [Introducción a la unidad Fr - Grid (ingles)](https://css-tricks.com/introduction-fr-css-unit/)
+12. [Definición de layouts y componentes](https://stackoverflow.com/questions/44309390/whats-exactly-the-purpose-of-components-layouts-and-pages-folders-in-a-meteor)
+13. [Documentación de Bootstrap (ingles)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+14. [Bootstrap tutorial completo (ingles)](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/)
+15. [Bootswatch, formas de cambiar la base de colores y fuentes de bootstrap](https://bootswatch.com/)
+16. [Guía de Sass y Scss oficial](https://sass-lang.com/guide)
+17. [Sass vs Less vs Scss](https://marksheet.io/sass-scss-less.html)
+
+
+
+### Temas extras
+
+1. [Cascada vs Metodologías Agiles](https://codetiburon.com/agile-or-waterfall-choose-the-right-approach-to-your-software-project/)
+2. [Paginas web y Sitios web (ingles)](https://www.websiteplanet.com/blog/website-vs-webpage-difference/)
+
+### Mas tutoriales e info
+
+1. [BettaTech](https://www.youtube.com/c/BettaTech/featured)
+2. [FalconMaster](https://www.youtube.com/channel/UCJl1YajcPWTeJNsQhGyMIMg)
 
 ## EJ
+
+[Grid](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area_named3)
